@@ -11,7 +11,7 @@ import sys
 class Converter(object):
 
     def __init__(self):
-        self.data = pd.read_csv("eurofxref-hist\\eurofxref-hist.csv", sep=",")
+        self.data = pd.read_csv("eurofxref-hist.csv", sep=",")
         self.data = self.data[
             ["Date", "USD", "JPY", "BGN", "CYP", "CZK", "DKK", "EEK", "GBP", "HUF", "LTL", "LVL", "MTL", "PLN", "ROL",
              "RON", "SEK", "SIT", "SKK", "CHF", "ISK", "NOK", "HRK", "RUB", "TRL", "TRY", "AUD", "BRL", "CAD", "CNY",
